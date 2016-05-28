@@ -1,7 +1,9 @@
+/* jshint globalstrict: true */
+'use strict';
+
 function initWatchVal() { }
 
 function Scope() {
-  'use strict';
   this.$$watchers = [];
   this.$$lastDirtyWatch = null;
   this.$$asyncQueue = [];
